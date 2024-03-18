@@ -1,0 +1,261 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="grey">
+    
+	 <p><h1 style="color: black;  text-align: center; font-family:Elephant; font-weight: bold;">FLOWERS MANAGEMENT SYSTEM</h1></p>
+    
+    <a href="home.html" style="padding: 10px; color: white; background-color:skyblue; text-decoration: none; margin-right: 15px;">HOME</a>
+    <a href="about us.html" style="padding: 10px; color: white; background-color:skyblue; text-decoration: none; margin-right: 15px;">ABOUT US</a>
+    <a href="contact us.html" style="padding: 10px; color: white; background-color:skyblue; text-decoration: none; margin-right: 15px;">CONTACT</a>
+    <a href="service.html" style="padding: 10px; color: white; background-color:skyblue; text-decoration: none; margin-right: 15px;">SERVICES</a>
+    <a href="form.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">FORM</a>
+    <a href="table.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">TABLE</a>
+    <a href="My Book.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">MY BOOK
+    </a><br><br>
+    <hr>
+    <br>
+	</p>
+	<h1>DATABASE AND JAVA WITH FLOWERS MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>system_management_system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Admin Table</b></li>
+
+			<p>Admin table database structure 
+login form will direct as on this admin login page.i.ts allows authorized users to access and manage the system.
+
+            Note: the created Admin will not have same ability and right in the system.</p></br>
+
+			<li><b>Customer table </b></li>
+
+			<p>Customer table database stracture customer provide all information about his or her and help to gather imporatant  information from customer,the information provide by customer help you to understamd their needs preferences and any reguirements they may have by collecting this data through the customer form.and help company to maintain his or her record for future reference.
+
+</p> </br>
+
+
+			<li><b>Flower table</b></li>
+
+			<p>Flower table database structure:
+This table will show flowers types hold by company and help customer buy and make command according flowers available.
+</p></br>
+
+			<li><b>Payment table</b></li>
+
+			<p>Payment table database structure:
+This table show mains of payment made by customers ,if customer pay by using cash ,bank and other mains of payment this  all are recorded on payment table in order to know number of flowers purchased and how much money they paid by client  .
+</p></br>
+
+            <li><b>Stock table</b></li>
+
+			<p>Stock table database structure:
+This table show flowers company hold in stock and make it clear to client and client show what they want .
+</p></br>
+
+			<li><b>Manager Table</b></li></ol>
+
+			<p>Manager table database structure :
+This table will show managers and what they work in company for example Human resource manager,
+ Top manager,line manager and other manager of the company.
+
+ </p></br>
+ <li><b>Supplier  Table</b></li></ol>
+
+			<p>Supplier table database structure:
+This table will show number of suppliers of company and show row _materials they sell in our company.
+
+ </p></br>
+
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <ol type="a"><li><b>Attributes of Admin Table</b></li></br>
+    Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+    <ol type="i"><li><p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p></li> 
+
+    <li><p><b><i>phone:</i></b> The column which are represents telephone number of user.</br></p></li>
+
+    <li><p><b><i>gender:</i></b> The column which are represents or store gender of user like female and male.</br></p></li>
+
+    <li><p><b><i>martial_status:</i></b> The column which are represents  martial status of user like single,married,divorced,…..</br></p></li> 
+
+    <li><p><b><i>DoB:</i></b> The column which are represents Date of Birth of user.</br></p></li>
+
+   <li><p><b><i>Email:</i></b> The column which are represents Email of given user.</br></p></li>
+
+    <li><p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p></li></ol>
+
+
+                    <li><b>Attributes of customer Table</b></li></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in customer table:</br>
+
+
+<ol type="i"><li><p><b><i>customer_Id:</i></b> The column which are represents  id of customer which is unique value called PRIMARY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of customer table.</br></p></li>
+
+<li><p><b><i>customername:</i></b> The column which are represents  the name of the customer .</p></br></li>
+
+<li><p><b><i>Email:</i></b> The column which are represents  the Email of customer .</br></p></li>
+
+<li><p><b><i>Address:</i></b> The columns which are represents  the address of the customer.</br></p></li></ol>
+<li><p><b><i>Gender:</i></b> The column which are represents  the gender of customer .</br></p></li>
+
+
+                    <li><b>Attributes of Flower Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Flower table:</br>
+
+
+
+<ol type="i"><li><p><b><i>Flower_Id:</i></b> The column which are represents  id of  Flower which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Flower table.</p></br></li>
+
+<li><p><b><i>Flower_Id:</i></b> The column which are represents  id of Flower which  is references to the Flower  table value called FOREIGN KEY.  </p></br></li>
+
+<li><p><b><i>Flower_type:</i></b> The column which are represents  the types of flowers.</p></br></li>
+
+<li><p><b><i>Unit_price:</i></b> The column which are represents the price of each flower .</p></br></li>
+
+
+<li><p><b><i>Quantity:</i></b> The column which are represents quantity of fowers hold in stock.</p></br></li>
+
+
+
+                    <li><b>Attributes of Payment Transaction Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Payment_Transaction table:</br>
+
+<ol type="i"><li><p><b><i>Payment_Transaction_Id:</i></b> The column which are represents  id of Payment_Transaction  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Payment_Transaction table.</p></br></li>
+
+
+<li><p><b><i>Payment_Id:</i></b> The column which are represents  id of Payment which  is references to thePayment  table value called FOREIGN KEY.  It is a column ofPayment table  which has relationship between customer_Transaction table.</p></br></li>
+
+<li><p><b><i>Amount:</i></b> The column which are represents  the amount purchased.</p></br></li> 
+
+<li><p><b><i>PaymentDate:</i></b> The column which are represents the date product purchased .</p></br></li>
+
+<li><p><b><i>PaymentMethode:</i></b> The column which are represents  the mains of p[ayment.</p></br></li></ol>
+
+
+                    <li><b>Attributes of Stock Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Stock  table:</br>
+
+
+<ol type="i"><li><p><b><i>Stock _Id:</i></b> The column which are represents  id of  Stock   which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Stock   table.</p></br></li>
+
+
+<li><p><b><i>Stock _Id:</i></b> The column which are represents  id of Stock  which  is references to the Stock   table value called FOREIGN KEY.  It is a column of Stock  table  which has relationship between Flower  table.</p></br></li>
+
+<li><p><b><i>ProductName:</i></b> The column which are represents  the name of  the product in stock.</p></br></li>
+
+
+<li><p><b>UnitPrice:</i></b> The column which are represents  the price of each product.</p></br></li>
+
+<li><p><b><i>DateReceived:</i></b> The column which are represents date received in order to know product recived first.</p></br></li>
+
+<li><p><b><i>QuantityAvailable:</i></b> The column which are represents quantity available in stock.</p></br></li></ol> 
+
+
+
+                    <li><b>Attributes of Manager Table</b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in Manager table:</br>
+
+
+<ol type="i"><li><p><b><i>Manager_Id:</i></b> The column which are represents  id of Manager  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Manager table.</p></br></li>
+
+<li><p><b><i>Manager_Id:</i></b> The column which are represents  id of Manager which  is references to the Manager table value called FOREIGN KEY.  It is a column of Manager table  which has relationship between customer  table.</p></br></li>
+
+<li><p><b><i>Manager_name:</i></b> The column which are represents  the name of Manager.</p></br></li>
+
+<li><p><b><i>Username:</i></b> The column which are represents  the  username of Manager.</p></br></li>
+
+<li><p><b><i>Telephone:</i></b> The column which are represents  the telephone of Manager.</p></br></li>
+<li><p><b><i>Email:</i></b> The column which are represents  the  email Manager.</p></br></li>
+ 
+
+  <li><b>Attributes of Supplier Table</b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in Supplier table:</br>
+
+
+<ol type="i"><li><p><b><i>Supplier_Id:</i></b> The column which are represents  id of Supplier  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Supplier table.</p></br></li>
+
+<li><p><b><i>Supplier_Id:</i></b> The column which are represents  id of Supplier which  is references to the Supplier table value called FOREIGN KEY.  It is a column of Supplier table  which has relationship between Manager  table.</p></br></li>
+
+<li><p><b><i>SupplierName:</i></b> The column which are represents  the name of Supplier.</p></br></li>
+
+<li><p><b><i>Telephone:</i></b> The column which are represents  the  telephone of Supplier.</p></br></li>
+
+
+<li><p><b><i>Email:</i></b> The column which are represents  the  email Supplier.</p></br></li>
+ 
+
+        </ul>
+		<h2><u><li>JAVA PROGRAMMING</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be show purpose of programming language was create the analyzed system.in java I will show how every detail working together with database that have describe above;</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<ol type="a"><li><p><b>Eclipse IDE:</b> IDE is a one of most important tools for java programmers.there are several IDEs (intergrated development environment) that are widely used by java developers sych as NetBeans  or Eclpse. There are many tools used however not everytool is perfect for alltypes of java app development project. A careful analysis is reguired by programmers before he or she choose tool. </p><br></li>
+
+<li><p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components.
+This greatly improves the speed with which an applet can be loaded onto a web page and begin functioning. The JAR format also supports compression, which reduces the size of the file and improves download time still further.
+
+ </p><br></li></ol>
+
+
+
+
+
+
+<p><b>MySQL Connectors:</b> MySQL Connectors. MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language choose.
+
+</p><br>
+
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<ol type="I"><li><b><h4>Customer Form</h4></b></br>
+<img src="cust.jpg" width=900 height=300><br><br><br><br><br></li>
+t 
+<li><b><h4>Flower Form</h4></b></br>
+<img src="flower.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Payment  Form</h4></b></br>
+<img src="payment.jpg" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>Stock Form</h4></b></br>
+<img src="stock.jpg" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>Manager Form</h4></b></br>
+<img src="manager.jpg" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>Supplier Form</h4></b></br>
+<img src="supplier.jpg" width=900 height=300><br><br><br><br><br>
+
+</li></ol>
+
+</ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>: INGABIRE Julliette</h2></marquee>
+	</body>
+	</html>
